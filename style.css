@@ -1,0 +1,362 @@
+:root{
+    --blue: #328fa8 ;
+}
+
+
+*{
+    margin:1px; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+
+}
+
+
+header .navbar a{
+  
+     font-size: 2rem;
+    padding:0 1.5rem;
+    color:#666;
+}
+header .navbar a:hover{
+    color:var(--blue);
+}
+
+
+
+
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 110vh;
+    background:url(pic1.JPG) no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    margin-left: 0rem;
+    padding-top: 7rem;
+    font-size: 6rem;
+    color:#333;
+}
+
+.home .content span{
+    margin-left: 0rem;
+    font-size: 3.5rem;
+    color:var(--blue);
+    padding: 2rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    color:black;
+    padding:1rem 0;
+    line-height: 1.5;
+
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(208, 236, 227,0.8);
+
+}
+
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background:var(--blue);
+
+}
+.heading span{
+        color: var(--blue);
+    }
+
+.about .row{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+}
+.about .heading .h1{
+     align-items: center;
+}
+
+.about .row .video-container{
+
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.about .row .video-container video{
+
+    width:100%;
+    border:1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .video-container h3{
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+    font-size: 3rem;
+    background:#fff;
+    width:100%;
+    padding:1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:.5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 3px;
+  margin: 15px;
+
+}
+
+.row {margin: 0 -4px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 90%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+/*-------------about us teamsss-------*/
+.teams h2 span{
+color: var(--blue);
+}
+.teams h2{
+
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 40px;
+    background: rgba(208, 236, 227,0.8);
+}
+
+
+
+
+}
+/* contact us */
+.contact7.section {
+    padding: 350px;
+
+}
+.contact7 .row7{
+    display: flex;
+    
+   
+    align-items: center;
+}
+
+.contact7 .row7 form{
+  float: left;
+  width: 50%;
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact7 .row .image7{
+
+    flex:1 1 40rem;
+
+}
+
+.contact7 .row7 .image7 img{
+  
+   float: right;
+    width: 50%;
+    
+}
+
+.image7:hover img{
+  opacity: 0.5;
+}
+
+.contact7 .row7 form .box{
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:.7rem 0;
+    width: 100%;
+}
+
+.contact7 .row7 form .box:focus{
+    border-color: var(--blue);
+}
+
+.contact7 .row7 form textarea{
+    height: 15rem;
+    resize: none;
+}
+/*-----about us-------*/
+.m1 {
+    margin-bottom: 73px;
+    display: flex;
+}
+
+
+.v1 {
+
+  float: left;
+  width: 48%;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+.v1 h2 span{
+color: var(--blue);
+}
+.v1 h2{
+
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 40px;
+    background: rgba(208, 236, 227,0.8);
+}
+.v1 p{
+   font-family:  sans-serif;
+    text-align: center;
+    letter-spacing: 0;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+/* Clear floats after the columns */
+.m1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+.map {
+  padding: 0;
+  margin-bottom: -6px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
